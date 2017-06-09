@@ -1,0 +1,91 @@
+.main-sections {
+  padding: 55px 0 0; }
+  .main-sections__alert {
+    padding: 69px 0 49px; }
+  .main-sections__middle-banner {
+    padding: 0; }
+  .main-sections__listing__latest {
+    background: #fff;
+    border-top: 1px solid #ededed; }
+  .main-sections.listing__featured {
+    padding-bottom: 70px; }
+  .main-sections__listing__latest, .main-sections__jobs-by {
+    background: #fff; }
+  .main-sections__jobs-by {
+    padding: 0; }
+/* START:Main banner
+ ********************************************************************************* */
+ #menu li {
+    display:inline;
+    margin-right: 10px;
+    
+}
+
+#menu ul{
+  margin-left: -35px;
+}
+
+#icone{
+  margin-right: 5px;
+}
+@media all and (max-width: 992px) {
+      .listing-item__jobs .listing-item__logo {
+        top: 28px; } }
+.listing-item {
+  min-height: 104px;
+  background-color: #fff;
+  box-shadow: none;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  -o-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in; }
+  .listing-item:last-child {
+    margin-bottom: 0; }
+  .listing-item:hover {
+    -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08); }
+  @media all and (max-width: 767px) {
+  .listing-item {
+    padding: 19px 15px; } }
+
+.listing__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 35px; 
+  font-family: arial;}
+
+  /*// --> */
+
+  .view-all {
+  background: #fff;
+  padding: 30px 0 70px; }
+  .view-all__btn {
+    width: 210px;
+    height: 50px;
+    border: 1px solid rgba(66, 81, 97, 0.1);
+    border-radius: 6px;
+    line-height: 50px;
+    color: #2d3e50;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+  .view-all__btn:hover:not(disabled) {
+    -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(66, 81, 97, 0.2); }
+
+    /* */
+hr{
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+h4{
+  font-family: arial;
+}
